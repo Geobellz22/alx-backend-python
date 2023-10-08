@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Type annotated function sum_mixed_list which takes
 a list mxd_list of integers and float
 abd returns their sum as float"""
