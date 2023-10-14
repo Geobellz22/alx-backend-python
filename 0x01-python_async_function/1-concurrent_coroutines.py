@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Async routine called wait_n that takes
-int argument in this order n and max_delay
 """
-
+Async routine called wait_n that takes in 2 int
+arguments (in this order): n and max_delay
+"""
 import asyncio
 from random import uniform
 from typing import List
