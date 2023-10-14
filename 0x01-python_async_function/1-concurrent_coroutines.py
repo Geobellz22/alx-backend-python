@@ -7,6 +7,7 @@ import asyncio
 from random import uniform
 from typing import List
 
+
 async def wait_random(max_delay: int) -> float:
     """
     Generate a random delay between 0 and max_delay.
@@ -18,7 +19,9 @@ async def wait_random(max_delay: int) -> float:
         float: A random delay value.
 
     """
+
     return uniform(0, max_delay)
+
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
